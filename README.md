@@ -23,7 +23,7 @@ Fatal error from pip prevented installation. Full pip output in file:
 Some possibly relevant errors from pip install:
     ERROR: Invalid requirement: 'pep723-pipx-poetry-experiments@ ./'
 Error installing pep723-pipx-poetry-experiments@ ./.
-[alex@molly pep723-pipx-poetry-experiments]$ cat /home/alex/.local/state/pipx/log/cmd_2024-02-03_12.33.57_pip_errors.log
+$ cat /home/alex/.local/state/pipx/log/cmd_2024-02-03_12.33.57_pip_errors.log
 PIP STDOUT
 ----------
 
