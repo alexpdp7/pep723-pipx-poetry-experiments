@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pep723-pipx-poetry-experiments"
+version = "0.1.0"
+description = ""
+authors = ["alex <alex@pdp7.net>"]
+readme = "README.md"
+packages = [{include = "pep723_pipx_poetry_experiments", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
